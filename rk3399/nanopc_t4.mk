@@ -30,7 +30,7 @@ TARGET_KERNEL_DTB=resource.img
 # 
 FRIENDLYWRT_ROOTFS=build_dir/target-aarch64_cortex-a53_musl/root-rockchip-rk3399
 TARGET_IMAGE_DIRNAME=friendlywrt
-TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPC_T4_arm64_sd.img
-TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPC_T4_arm64_eflasher.img
+TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPC-T4_arm64_sd.img
+TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_NanoPC-T4_arm64_eflasher.img
 
 
