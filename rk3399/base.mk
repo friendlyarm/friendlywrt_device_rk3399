@@ -8,12 +8,10 @@ TARGET_OSNAME=friendlywrt
 # FriendlyWRT
 # 
 
-TARGET_FRIENDLYWRT_CONFIG=config_rk3399
+TARGET_FRIENDLYWRT_CONFIG=rockchip
 FRIENDLYWRT_SRC=friendlywrt
-FRIENDLYWRT_PACKAGES+=(packages/pkg1)
-FRIENDLYWRT_PACKAGES+=(packages/pkg2)
-FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/default-settings)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/common-files)
+FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/default-settings)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/sd-update-tool)
 
 # U-boot
@@ -29,7 +27,7 @@ TARGET_KERNEL_DTB=resource.img
 
 # Misc
 # 
-FRIENDLYWRT_ROOTFS=build_dir/target-aarch64_cortex-a53_musl/root-rockchip-rk3399
+FRIENDLYWRT_ROOTFS=build_dir/target-aarch64_generic_musl/root-rockchip
 TARGET_IMAGE_DIRNAME=friendlywrt
 TARGET_SD_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_RK3399_arm64_sd.img
 TARGET_EFLASHER_RAW_FILENAME=FriendlyWrt_$(date +%Y%m%d)_RK3399_arm64_eflasher.img
