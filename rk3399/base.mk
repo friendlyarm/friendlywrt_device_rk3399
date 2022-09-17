@@ -26,7 +26,7 @@ TARGET_UBOOT_CONFIG=rk3399_defconfig
 # Kernel
 # 
 
-TARGET_KERNEL_CONFIG=nanopi4_linux_defconfig
+TARGET_KERNEL_CONFIG="nanopi4_linux_defconfig friendlywrt.config"
 TARGET_KERNEL_DTB=resource.img
 
 # Misc
