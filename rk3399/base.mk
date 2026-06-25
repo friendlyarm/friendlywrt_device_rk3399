@@ -18,6 +18,7 @@ FRIENDLYWRT_FILES+=(device/common/emmc-tools)
 FRIENDLYWRT_FILES+=(device/common/distfeeds)
 FRIENDLYWRT_FILES+=(device/common/default-settings)
 FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/r8169)
+FRIENDLYWRT_FILES+=(device/friendlyelec/rk3399/ap63xx-wifi-firmware)
 
 # U-boot
 #
